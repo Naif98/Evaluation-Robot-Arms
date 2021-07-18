@@ -1,1 +1,2 @@
 # Evaluation-Robot-Arms
+The purpose of this task is to build the circuit for the evaluation of robot arms. First, we connect the circuit in the tinkercad. I assumed that the initial position is lying the robot arms down. After that, the arms will make three different movements. the first movement is that the robot will do a hug. The second movement is that the robot will raise both hands when the evaluator gives a positive rate. The third movement is that the robot will say " Hi " and rise only the right hand to start or end the conversation with the evaluator.
