@@ -1,0 +1,88 @@
+// Include the Servo library 
+#include <Servo.h> 
+// Declare the Servo pin 
+int servoPin1 = 3; 
+int servoPin2 = 2;
+int servoPin3 = 1;
+int servoPin4 = 7;
+int servoPin5 = 8;
+int servoPin6 = 9;
+
+
+
+// Create a servo object 
+Servo Servo1, Servo2, Servo3, Servo4, Servo5, Servo6; 
+
+
+void setup() { 
+   // We need to attach the servo to the used pin number 
+   Servo1.attach(servoPin1); 
+   Servo2.attach(servoPin2);
+   Servo3.attach(servoPin3);
+   Servo4.attach(servoPin4);
+   Servo5.attach(servoPin5);
+   Servo6.attach(servoPin6);
+   
+  // change the servo angle for initial position (0 degree)
+   Servo1.write(0); 
+    
+   Servo2.write(0); 
+  
+   Servo3.write(0); 
+
+   Servo4.write(0); 
+   
+   Servo5.write(0);
+  
+   Servo6.write(0);
+   
+  delay(4000); 
+    // make the first movement (hug)
+   Servo1.write(90); 
+ 
+   Servo2.write(45); 
+     
+   Servo3.write(25); 
+ 
+   Servo4.write(90); 
+  
+   Servo5.write(45);
+   
+   Servo6.write(25);
+   
+  delay(4000); 
+  
+      // make the second movement (Rise both arms)
+   Servo1.write(180); 
+ 
+   Servo2.write(0); 
+     
+   Servo3.write(0); 
+ 
+   Servo4.write(180); 
+  
+   Servo5.write(0);
+   
+   Servo6.write(0);
+   
+  delay(4000); 
+  // make the third movement (sign Hi by Right Hand)
+   Servo1.write(90); 
+ 
+   Servo2.write(90); 
+     
+   Servo3.write(0); 
+ 
+   Servo4.write(0); 
+  
+   Servo5.write(0);
+   
+   Servo6.write(0);
+   
+  delay(4000); 
+}
+
+void loop(){
+  
+ 
+}
